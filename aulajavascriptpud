@@ -22,6 +22,29 @@
 != diferente
 
 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somahtml</title>
+</head>
+<body>
+    <script>
+        let numero1 = parseInt(prompt('Digite um número: '))
+        let numero2 = parseInt(prompt('Digite um número: '))
+
+       
+        alert(numero1==numero2) 
+    </script>
+</body>
+</html>
+      
+      
+    </script>
+</body>
+</html>
+
 
 
 <!DOCTYPE html>
@@ -278,6 +301,30 @@ opção  10
     <script>
         let numero1= 10
         let numero2 = 15
+       
+        alert(numero1==numero2) 
+    </script>
+</body>
+</html>
+      
+      
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somahtml</title>
+</head>
+<body>
+    <script>
+        let numero1 = parseInt(prompt('Digite um número: '))
+        let numero2 = parseInt(prompt('Digite um número: '))
+
        
         alert(numero1==numero2) 
     </script>
