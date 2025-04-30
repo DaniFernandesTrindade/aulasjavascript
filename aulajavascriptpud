@@ -7,7 +7,7 @@
 #= e recebe == comparação
 # && para ser verdadeiro  a comparação das duas necessita ser verdadeira
 # no ou tem que satisfazer um lado só 
-# quando usamos . nos chamamos algo que já esta predefinida em nosso código
+# quando usamos . nos chamamos algo que já esta predefinida em nosso código length
 
  Aritiméticos: +, -, *, /, **
  Atribuição: * = * 1, x+ = 1, x++
