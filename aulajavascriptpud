@@ -1,0 +1,290 @@
+#primeiro selecionar a linguagem html depois no codigo selecionar HTMl5. parseINt(prompt("") utilizado para converter na linguagem Javascript. Lembrar de salvar para executar.
+#Na declaração de variaveis não devemos acentuar / Lembrar de estudar matematica e aritimetica
+#consigo exibir um resultado mesmo nao sendo texto sendo numero eu colocando as "" vira string sem vira numeroco podemos utilizar typeof
+#padrao de declaração de variavel e camel case ex.:textoNumero
+#as variaveis sempre  estarão sem parenteses e entre + Ex.: "numero1"
+#/* e // para criar comentarios
+#= e recebe == comparação
+# && para ser verdadeiro  a comparação das duas necessita ser verdadeira
+# no ou tem que satisfazer um lado só 
+
+ Aritiméticos: +, -, *, /, **
+ Atribuição: * = * 1, x+ = 1, x++
+ Relacionadas: < > <= > = == === ||
+ Lógicos: !, &&, 
+ Ternário: ?, :
+
+= recebe
++ soma ou concatenaçãop de textos
+< menor
+> maior
+== igual (comparando)
+!= diferente
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somahtml</title>
+</head>
+<body>
+    <script>
+        var numero1 = parseInt(prompt('Digite um número: '))
+        var numero2 = parseInt(prompt('Digite um número: '))
+
+        alert(numero1+numero2)
+    </script>
+</body>
+</html>
+
+
+opção 2
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somahtml</title>
+</head>
+<body>
+    <script>
+        var numero1 = parseInt(prompt('Digite um número: '))
+        var numero2 = parseInt(prompt('Digite um número: '))
+        let nome = prompt('Informe seu nome: ') 
+
+        alert(numero1+numero2)
+        alert(nome)
+    </script>
+</body>
+</html>
+
+opção 3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somahtml</title>
+</head>
+<body>
+    <script>
+        var numero = 7
+
+        alert(numero)
+    </script>
+</body>
+</html>
+
+opção3 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somahtml</title>
+</head>
+<body>
+    <script>
+        var numero1 = parseInt(prompt('Digite um número: '))
+        var numero2 = parseInt(prompt('Digite um número: '))
+        var resultado = (numero1+numero2)
+
+        alert(resultado)
+      
+    </script>
+</body>
+</html>
+
+opção4 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somahtml</title>
+</head>
+<body>
+    <script>
+     <script>
+        let nome = 'Daniella'
+       
+        alert(nome)
+      
+      
+    </script>
+</body>
+</html>
+
+opção4 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somahtml</title>
+</head>
+<body>
+    <script>
+     <script>
+        var numero = 33
+        let numero = 'numrero'
+       
+        alert(resultado)
+
+opção 5
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somahtml</title>
+</head>
+<body>
+    <script>
+        let numero = 33
+       
+        alert(typeof(numero))
+    </script>
+</body>
+</html>
+
+opção 6
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somahtml</title>
+</head>
+<body>
+    <script>
+        alert(10+10)
+        alert("10"+"10")
+    </script>
+</body>
+</html>
+      
+      
+    </script>
+</body>
+</html>
+
+opção 7
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somahtml</title>
+</head>
+<body>
+    <script>
+        let numero1 = 5
+        let numero2 = 33
+        let numero3 = 8
+        let numero4= 34
+
+        alert(numero1+numero2)
+        alert(numero3+numer4)
+    </script>
+</body>
+</html>
+      
+      
+    </script>
+</body>
+</html>
+
+# <script>
+        let numero1 = 5
+        let numero2 = 33
+        let textoNumero1 = "8"
+        let textoNumero2 = "34"
+
+        alert(numero1+numero2)
+        alert(numero3+numer4)
+<script>
+
+exercicio
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somahtml</title>
+</head>
+<body>
+    <script>
+        let nome= "Daniella"
+        let idade = 28
+        let cidade = "Nitéroi"
+        
+
+        alert("Meu nome é "+nome+", tenho " +idade+" anos moro em " +cidade) 
+    </script>
+</body>
+</html>
+      
+      
+    </script>
+</body>
+</html>
+
+opção  10
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somahtml</title>
+</head>
+<body>
+    <script>
+        let nome= "Daniella"
+        let idade = 28
+        let cidade = "Nitéroi"
+        
+
+        alert("Meu nome é "+nome+", tenho " +idade+" anos moro em " +cidade) 
+    </script>
+</body>
+</html>
+      
+      
+    </script>
+</body>
+</html>
+
+#comparador logico booleanos true e false 
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somahtml</title>
+</head>
+<body>
+    <script>
+        let numero1= 10
+        let numero2 = 15
+       
+        alert(numero1==numero2) 
+    </script>
+</body>
+</html>
+      
+      
+    </script>
+</body>
+</html>
