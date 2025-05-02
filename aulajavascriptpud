@@ -501,3 +501,28 @@ Dever JS
 
 </body>
 </html>
+
+dever
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let idade = parseInt(prompt("Digite sua idade: "))
+        
+        if(idade  >= "18") {
+            alert ("Você já pode votar! ")
+        }
+        else(idade == "70"){
+            alert ("Você não precisa mais votar! ")
+        }
+         
+    </script>
+
+</body>
+</html>
