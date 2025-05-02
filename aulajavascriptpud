@@ -336,3 +336,168 @@ opção  10
     </script>
 </body>
 </html>
+
+02/05
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var ePar = true
+
+        if (ePar == true){
+            document.write("Número par")
+        }
+        else{
+            alert("Número ímpar")
+        }
+    </script>
+
+</body>
+</html>
+
+divisão
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let numeropar = Number(prompt('Digite um número: '));
+
+        if (numeropar % 2 == 0){
+            document.write("Número par");
+        }
+        else{
+            alert("Número ímpar");
+        }
+    </script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let numeropar = Number(prompt('Digite um número: '));
+        let numeropar2 = Number(prompt('Digite um número: '));
+
+        if ((numeropar + numeropar2) %2 == 0 ){
+            document.write("Número par");
+        }
+        else{
+            alert("Número ímpar");
+        }
+    </script>
+
+</body>
+</html>
+
+dever
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let Time1 = prompt('Digite o nome do time: ')
+        let golsTime1 = Number(prompt('Digite quantos gols: '))
+        let Time2 = prompt('Digite o nome do time: ')
+        let golsTime2 = Number(prompt('Digite quantos gols: '))
+
+        alert("A partida "+Time1+ " " +golsTime1+ "x" +golsTime2+ " "+Time2 )
+
+        if (Time1 == Time2){
+            alert("O jogo acabou em empate")
+        }
+        else if (Time1 > Time2){
+            alert("O"+Time1+ "ganhou")
+        }   
+        if (Time2 > Time1){
+            alert("O"+Time1+ "ganhou")
+        }
+    
+    </script>
+
+</body>
+</html>
+
+
+Dever JS
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let Time1 = prompt('Digite o nome do time: ')
+        let golsTime1 = Number(prompt('Digite quantos gols: '))
+        let Time2 = prompt('Digite o nome do time: ')
+        let golsTime2 = Number(prompt('Digite quantos gols: '))
+
+        alert("A partida "+Time1+ " " +golsTime1+ "x" +golsTime2+ " "+Time2 )
+
+        if (Time1 == Time2){
+            alert("O jogo acabou em empate")
+        }
+        else if (Time1 > Time2){
+            alert(Time1+" ganhou!")
+        }   
+        if (Time2 > Time1){
+            alert(Time2+" ganhou!")
+        }
+    
+    </script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let idade = parseInt(prompt("Digite sua idade: "))
+        
+        if(idade  > "16") {
+            alert ("Você já pode votar! ")
+        }
+        else(idade == "70"){
+            alert ("Você não precisa mais votar! ")
+        }
+         
+    </script>
+
+</body>
+</html>
