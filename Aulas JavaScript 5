@@ -104,3 +104,49 @@
 </body>
 </html>
 ----------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <button onclick="login()">Mudar</button>
+    <button onclick="login()">Mudar2</button>
+
+    <script>
+       function alteraTexto(){
+        let titulo = document.getElementById("Mudar").style.color = "Blue"
+       }
+       function retornaTexto(){
+        let titulo = document.getElementById("Mudar2").style.color = "Black"
+       }
+    </script>
+</body>
+</html>
+---------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <button onclick="Titulo()">Mudar</button>
+    <button onclick="Titulo()">Mudar2</button>
+
+    <script>
+       function alteraTexto(){
+        let titulo = document.getElementById("Mudar").style.color = "Blue"
+       }
+       function retornaTexto(){
+        let titulo = document.getElementById("Mudar2").style.color = "Black"
+       }
+    </script>
+</body>
+</html>
