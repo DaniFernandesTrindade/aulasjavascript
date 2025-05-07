@@ -8,7 +8,7 @@
 # && para ser verdadeiro  a comparação das duas necessita ser verdadeira
 # no ou tem que satisfazer um lado só 
 # quando usamos . nos chamamos algo que já esta predefinida em nosso código length
-
+#condicional verdadeiro ou falso #
  Aritiméticos: +, -, *, /, **
  Atribuição: * = * 1, x+ = 1, x++
  Relacionadas: < > <= > = == === ||
