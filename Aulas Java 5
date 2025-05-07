@@ -1,0 +1,84 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema da PUD</title>
+</head>
+<body>
+    <h1>LOGIN PLATAFORMA URBANA DIGITAL</h1>
+    <p>Usuário:</p>
+    <input type="text">
+    <p>Senha:</p>
+    <input type="password"><br><br>
+    <button>ENTRAR</button>
+
+    <script>
+        let nota = parseFloat(prompt("Digite sua nota do semestre"))
+        let nota2 = parseFloat(prompt("Digite sua nota do semestre"))
+        let nota3 = parseFloat(prompt("Digite sua nota do semestre"))
+        let nota4 = parseFloat(prompt("Digite sua nota do semestre"))
+
+
+        if((nota+nota2+nota3+nota4)/4 >=6){
+            alert("Você foi APROVADO!")
+        }
+        else{
+            alert("Você foi REPORVADO!")
+        }
+    </script>
+</body>
+</html>
+
+
+
+------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema da PUD</title>
+</head>
+<body>
+    <h1>LOGIN PLATAFORMA URBANA DIGITAL</h1>
+    <p>Usuário:</p>
+    <input type="text" id="usuario">
+    <p>Senha:</p>
+    <input type="password" id="senha"><br><br>
+    <button onclick="login()">ENTRAR</button>
+
+    <script>
+        function login(){
+            let usuario = document.getElementById("usuario").value
+       alert(usuario)
+        }
+    </script>
+</body>
+</html>
+
+------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema da PUD</title>
+</head>
+<body>
+    <h1>LOGIN PLATAFORMA URBANA DIGITAL</h1>
+    <p>Usuário:</p>
+    <input type="text" id="usuario">
+    <p>Senha:</p>
+    <input type="password" id="senha"><br><br>
+    <button onclick="login()">ENTRAR</button>
+
+    <script>
+        function login(){
+            let usuario = document.getElementById("usuario").value
+       alert(usuario)
+        }
+    </script>
+</body>
+</html>
