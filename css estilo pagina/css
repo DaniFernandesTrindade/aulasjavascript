@@ -60,6 +60,27 @@ button:hover {
     color: #e74c3c; /* Cor vermelha para chamar a atenção */
     margin-bottom: 20px; /* Espaço abaixo do preço */
 }
+/* Estilo para a imagem de fundo com efeito blur */
+body {
+    background-image: url('/mnt/data/IMG_4697.jpeg'); /* Definindo a imagem diretamente no CSS, mas pode ser dinamicamente alterada via JS */
+    background-size: cover; /* Faz com que a imagem cubra toda a tela */
+    background-position: center; /* Centraliza a imagem de fundo */
+    height: 100vh; /* Garante que o corpo ocupe toda a altura da tela */
+    margin: 0;
+    position: relative;
+}
+
+body::before {
+    content: ''; /* Cria um pseudo-elemento */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit; /* Herda o fundo do corpo */
+    filter: blur(8px); /* Aplica o efeito de desfoque */
+    z-index: -1; /* Garante que o pseudo-elemento fique atrás do conteúdo */
+}
 
 --------------------------------------------------------------
 /* Estilos para as imagens */
