@@ -25,13 +25,14 @@
     <img src="misso lamen.jpg" alt="misso lamen">
     <div class="descricao-produto">
         <div class="descricao-produto">
-            <h2 class="nome-produto">Tonkatsu de Curry Kare</h2>
+            <h2 class="nome-produto">Misso Lamen</h2>
             <p class="descricao">
-                Aprecie a perfeita harmonia entre a crocância do *tonkatsu* e o molho rico e aromático de curry kare. 
-                Nosso *tonkatsu* é feito com carne de porco suculenta, empanada e frita até atingir a textura perfeita.
-                Servido com um delicioso curry japonês, preparado com especiarias autênticas e legumes frescos, 
-                este prato oferece uma experiência única de sabor. Ideal para os amantes da culinária japonesa que 
-                buscam uma refeição reconfortante e saborosa.
+                Aprecie o equilíbrio envolvente entre o sabor profundo do missô e a delicadeza do caldo quente e aromático do nosso lamen.
+Nosso Missô Lamen é preparado com um caldo rico à base de pasta de soja fermentada, cuidadosamente cozido para extrair camadas de umami e aconchego.
+Servido com macarrão artesanal, ovos marinados, vegetais frescos e fatias suculentas de carne de porco grelhada, este prato combina tradição e conforto em cada colherada.
+Uma escolha perfeita para os amantes da culinária japonesa que desejam se aquecer com uma refeição intensa, nutritiva e cheia de sabor.
+
+
             </p>
             <span class="preco">R$ 45,00</span>
             <button class="btn-comprar">Adicionar ao Carrinho</button>
