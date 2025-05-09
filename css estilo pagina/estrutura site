@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katsuya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="tonkatsu curry kare.jpg" alt="Tonkatsu de Curry Kare">
+    <div class="descricao-produto">
+        <div class="descricao-produto">
+            <h2 class="nome-produto">Tonkatsu de Curry Kare</h2>
+            <p class="descricao">
+                Aprecie a perfeita harmonia entre a crocância do *tonkatsu* e o molho rico e aromático de curry kare. 
+                Nosso *tonkatsu* é feito com carne de porco suculenta, empanada e frita até atingir a textura perfeita.
+                Servido com um delicioso curry japonês, preparado com especiarias autênticas e legumes frescos, 
+                este prato oferece uma experiência única de sabor. Ideal para os amantes da culinária japonesa que 
+                buscam uma refeição reconfortante e saborosa.
+            </p>
+            <span class="preco">R$ 45,00</span>
+            <button class="btn-comprar">Adicionar ao Carrinho</button>
+        </div>
+    </div><br>
+    <img src="misso lamen.jpg" alt="misso lamen">
+    <div class="descricao-produto">
+        <div class="descricao-produto">
+            <h2 class="nome-produto">Tonkatsu de Curry Kare</h2>
+            <p class="descricao">
+                Aprecie a perfeita harmonia entre a crocância do *tonkatsu* e o molho rico e aromático de curry kare. 
+                Nosso *tonkatsu* é feito com carne de porco suculenta, empanada e frita até atingir a textura perfeita.
+                Servido com um delicioso curry japonês, preparado com especiarias autênticas e legumes frescos, 
+                este prato oferece uma experiência única de sabor. Ideal para os amantes da culinária japonesa que 
+                buscam uma refeição reconfortante e saborosa.
+            </p>
+            <span class="preco">R$ 45,00</span>
+            <button class="btn-comprar">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+</html>
