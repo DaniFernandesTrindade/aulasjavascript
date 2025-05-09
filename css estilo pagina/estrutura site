@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+   <header>
+        <div class="site-name">
+            Katsuya <!-- Nome do site -->
+        </div>
+        <div class="cart-icon">
+            🛒 <!-- Ícone de carrinho -->
+        </div>
+        <div class="menu-icon">
+            ⋮ <!-- Três pontinhos (ícone de menu) -->
+        </div>
+    </header>
+
     <img src="tonkatsu curry kare.jpg" alt="Tonkatsu de Curry Kare">
     <div class="descricao-produto">
         <h2 class="nome-produto">Tonkatsu de Curry Kare</h2>
