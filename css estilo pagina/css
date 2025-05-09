@@ -1,0 +1,126 @@
+/* Estilos para as imagens */
+img {
+    width: 350px; /* Largura da imagem */
+    height: auto; /* Altura proporcional à largura */
+    display: block; /* Garantir que a imagem se comporte como um bloco */
+    margin: 0 auto 20px auto; /* Centraliza a imagem e adiciona um espaço abaixo */
+}
+
+/* Estilos para o botão */
+button {
+    display: inline-block; /* Botão no mesmo nível do texto */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho de texto legível */
+    background-color: #3498db; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Sem bordas */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de pointer para indicar que é clicável */
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+/* Efeito de hover no botão */
+button:hover {
+    background-color: #2980b9; /* Cor do botão muda ao passar o mouse */
+}
+
+/* Container de descrição de produto */
+.descricao-produto {
+    background-color: #fff; /* Fundo branco para destacar o conteúdo */
+    border: 2px solid #ddd; /* Borda cinza clara ao redor do quadrado */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    margin-bottom: 30px; /* Espaço entre os produtos */
+    max-width: 600px; /* Largura máxima do quadrado */
+    margin-left: auto; /* Centralizar */
+    margin-right: auto; /* Centralizar */
+}
+
+/* Título do produto */
+.nome-produto {
+    font-size: 24px; /* Tamanho maior para o título */
+    font-weight: bold; /* Título em negrito */
+    color: #333; /* Cor escura para o título */
+    margin-bottom: 15px; /* Espaçamento abaixo do título */
+}
+
+/* Descrição do produto */
+.descricao {
+    font-size: 16px; /* Tamanho de fonte confortável para leitura */
+    color: #555; /* Cor de texto mais suave */
+    margin-bottom: 15px; /* Espaçamento abaixo da descrição */
+    text-align: justify; /* Justificar o texto para uma aparência mais limpa */
+    line-height: 1.8; /* Maior espaçamento entre as linhas */
+}
+
+/* Preço do produto */
+.preco {
+    font-size: 20px; /* Tamanho maior para o preço */
+    font-weight: bold; /* Negrito para destacar o preço */
+    color: #e74c3c; /* Cor vermelha para chamar a atenção */
+    margin-bottom: 20px; /* Espaço abaixo do preço */
+}
+
+--------------------------------------------------------------
+/* Estilos para as imagens */
+img {
+    width: 350px; /* Largura da imagem */
+    height: auto; /* Altura proporcional à largura */
+    display: block; /* Garantir que a imagem se comporte como um bloco */
+    margin: 0 auto 20px; /* Centraliza a imagem e adiciona um espaço abaixo */
+}
+
+/* Estilos para o botão */
+button {
+    display: inline-block; /* Botão no mesmo nível do texto */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho de texto legível */
+    background-color: #3498db; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Sem bordas */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de pointer para indicar que é clicável */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave para cor e transformação */
+}
+
+/* Efeito de hover no botão */
+button:hover {
+    background-color: #2980b9; /* Cor do botão muda ao passar o mouse */
+    transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
+}
+
+/* Container de descrição de produto */
+.descricao-produto {
+    background-color: #fff; /* Fundo branco para destacar o conteúdo */
+    border: 2px solid #ddd; /* Borda cinza clara ao redor do quadrado */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    margin-bottom: 30px; /* Espaço entre os produtos */
+    max-width: 600px; /* Largura máxima do quadrado */
+    margin: 0 auto; /* Centralizar */
+}
+
+/* Título do produto */
+.nome-produto {
+    font-size: 24px; /* Tamanho maior para o título */
+    font-weight: bold; /* Título em negrito */
+    color: #333; /* Cor escura para o título */
+    margin-bottom: 15px; /* Espaçamento abaixo do título */
+}
+
+/* Descrição do produto */
+.descricao {
+    font-size: 16px; /* Tamanho de fonte confortável para leitura */
+    color: #555; /* Cor de texto mais suave */
+    margin-bottom: 15px; /* Espaçamento abaixo da descrição */
+    text-align: justify; /* Justificar o texto para uma aparência mais limpa */
+    line-height: 1.8; /* Maior espaçamento entre as linhas */
+}
+
+/* Preço do produto */
+.preco {
+    font-size: 20px; /* Tamanho maior para o preço */
+    font-weight: bold; /* Negrito para destacar o preço */
+    color: #e74c3c; /* Cor vermelha para chamar a atenção */
+    margin-bottom: 20px; /* Espaço abaixo do preço */
+}
