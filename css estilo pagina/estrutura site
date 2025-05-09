@@ -33,7 +33,62 @@
         </p>
         <span class="preco">R$ 55,00</span>
         <button class="btn-comprar">Adicionar ao Carrinho</button>
-    </div>
+    </div><br>
+
+<img src="oniguiri.jpg" alt="Oniguiri">
+<div class="descricao-produto">
+    <h2 class="nome-produto">Oniguiri</h2>
+    <p class="descricao">
+        Descubra o sabor autêntico do tradicional <em>oniguiri</em>, um clássico da culinária japonesa.  
+        Feito com arroz temperado moldado à mão e recheado com ingredientes selecionados, como salmão grelhado ou ameixa japonesa,  
+        esse bolinho é envolto em uma folha de alga crocante que complementa perfeitamente a textura suave do arroz.  
+        Leve, saboroso e prático, o <em>oniguiri</em> é ideal como lanche ou entrada para sua refeição japonesa.
+    </p>
+    <span class="preco">R$ 12,00</span>
+    <button class="btn-comprar">Adicionar ao Carrinho</button>
+</div><br>
+
+ <img src="guioza.jpg" alt="Guioza">
+<div class="descricao-produto">
+    <h2 class="nome-produto">Guioza</h2>
+    <p class="descricao">
+        Delicie-se com nossos irresistíveis <em>guiozas</em>, os tradicionais pasteizinhos japoneses recheados com carne suculenta e vegetais bem temperados.  
+        Levemente selados na chapa para garantir uma base crocante e depois cozidos no vapor para manter a maciez, eles oferecem o equilíbrio perfeito entre textura e sabor.  
+        Servidos com um molho especial à base de shoyu, vinagre de arroz e um toque de gengibre, são ideais como entrada ou acompanhamento.  
+        Uma explosão de sabores em cada mordida!
+    </p>
+    <span class="preco">R$ 22,00</span>
+    <button class="btn-comprar">Adicionar ao Carrinho</button>
+</div><br>
+
+<img src="kimchi.jpg" alt="Kimchi">
+<div class="descricao-produto">
+    <h2 class="nome-produto">Kimchi</h2>
+    <p class="descricao">
+        Experimente o autêntico <em>kimchi</em>, um clássico fermentado da culinária coreana que conquistou o mundo.  
+        Preparado com acelga chinesa, rabanete e uma mistura picante de alho, gengibre e pimenta coreana,  
+        o <em>kimchi</em> é um acompanhamento vibrante, rico em sabor e benefícios para a saúde.  
+        Perfeito para adicionar uma explosão de sabor à sua refeição ou para ser apreciado como aperitivo,  
+        ele combina crocância, acidez e um toque picante de forma única.
+    </p>
+    <span class="preco">R$ 15,00</span>
+    <button class="btn-comprar">Adicionar ao Carrinho</button>
+</div><br>
+
+<img src="matcha.jpg" alt="Chá Verde Matcha">
+<div class="descricao-produto">
+    <h2 class="nome-produto">Chá Verde Matcha</h2>
+    <p class="descricao">
+        Um clássico da cultura japonesa, o <strong>matcha</strong> é um chá verde em pó de sabor intenso e propriedades antioxidantes poderosas.  
+        Preparado tradicionalmente, ele oferece uma experiência única de amargor equilibrado e frescor herbal.  
+        Ideal para acompanhar doces japoneses ou para ser apreciado sozinho, quente ou gelado, como uma bebida revigorante e sofisticada.
+    </p>
+    <span class="preco">R$ 18,00</span>
+    <button class="btn-comprar">Adicionar ao Carrinho</button>
+</div>
+
+
+
 </body>
 </html>
 
