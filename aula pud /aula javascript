@@ -12,3 +12,78 @@
     </script>
 </body>
 </html>
+
+----------------------------------------------------------------------------
+//criar arquivo css na pagina do arquivo importar para mudar os dados, pode ser utilizado em varios arquivos diferentes, somente jogando para a mesma pasta que quer reproduzir
+CSS
+body{
+    background-color: rgb(255, 139, 159) ;
+}
+h1{
+   color:rgb(56, 56, 250) ;
+}     
+
+-------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <h1 >THE LEGEND OF ZELDA</h1><br>
+    <h1></h1>
+    <img src="link.jpg" alt="Capa The Legend Of Zelda THEARS OF THE KINGDOM" width="1350" height="930">
+    <h1>THE LEGEND OF ZELDA</h1>
+    <h1>The Legend of Zelda: Ocarina of Time é um jogo eletrônico de ação e aventura desenvolvido e publicado pela Nintendo para o Nintendo 64. Foi lançado no Japão e na América do Norte em novembro de 1998 e nas regiões PAL no mês seguinte. Ocarina of Time é o primeiro jogo da série The Legend of Zelda com gráficos 3D.</h1>
+    <img src="link ocarina.jpg" alt=""
+    
+    
+</body>
+</html>
+uma pagina de lanchonete com nome, com seis produtos e com estilo descrição imagem tamanho padrao outra fonte botão em todos os produtos estilizados 
+
+anotar imagem jogar texto posicionar <br>por embaixo do outro fazer uma pagina de uma lanchonete nome do lanche descrição do que vem no lanche nome do lanche seis produtos e por preço botão do lado escrito comprar quando clicar no botao comprar abrir prompt a pessoa vai dizer quantos "nome do alimento" ela quer e depois total da compra e colocar depois voltar para pagina alert
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katsuya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="tonkatsu curry kare.jpg" alt="Tonkatsu de Curry Kare">
+    <div class="descricao-produto">
+        <div class="descricao-produto">
+            <h2 class="nome-produto">Tonkatsu de Curry Kare</h2>
+            <p class="descricao">
+                Aprecie a perfeita harmonia entre a crocância do *tonkatsu* e o molho rico e aromático de curry kare. 
+                Nosso *tonkatsu* é feito com carne de porco suculenta, empanada e frita até atingir a textura perfeita.
+                Servido com um delicioso curry japonês, preparado com especiarias autênticas e legumes frescos, 
+                este prato oferece uma experiência única de sabor. Ideal para os amantes da culinária japonesa que 
+                buscam uma refeição reconfortante e saborosa.
+            </p>
+            <span class="preco">R$ 45,00</span>
+            <button class="btn-comprar">Adicionar ao Carrinho</button>
+        </div>
+    </div><br>
+    <img src="misso lamen.jpg" alt="misso lamen">
+    <div class="descricao-produto">
+        <div class="descricao-produto">
+            <h2 class="nome-produto">Tonkatsu de Curry Kare</h2>
+            <p class="descricao">
+                Aprecie a perfeita harmonia entre a crocância do *tonkatsu* e o molho rico e aromático de curry kare. 
+                Nosso *tonkatsu* é feito com carne de porco suculenta, empanada e frita até atingir a textura perfeita.
+                Servido com um delicioso curry japonês, preparado com especiarias autênticas e legumes frescos, 
+                este prato oferece uma experiência única de sabor. Ideal para os amantes da culinária japonesa que 
+                buscam uma refeição reconfortante e saborosa.
+            </p>
+            <span class="preco">R$ 45,00</span>
+            <button class="btn-comprar">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+</html>
