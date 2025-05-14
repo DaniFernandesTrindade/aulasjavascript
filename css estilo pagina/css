@@ -145,3 +145,6 @@ button:hover {
     color: #e74c3c; /* Cor vermelha para chamar a atenção */
     margin-bottom: 20px; /* Espaço abaixo do preço */
 }
+
+
+site para guardar informações para votar armazenar cada voto vale um botão para encerrar a votação seis candidatos pode votar em um ou voto nulo digite o numero contabilize o candidato 
