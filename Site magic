@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cartas Magic - Votação</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+  <div class="container-cartas">
+
+    <!-- Carta 1 -->
+    <div class="descricao-produto" data-id="1">
+      <h2 class="nome-produto">Liliana Vess</h2>
+      <img src="IMG_4697.jpeg" alt="Liliana Vess" />
+      <p class="descricao">Poderosa necromante, aliada às forças sombrias do Pântano.</p>
+      <button onclick="votarProduto(this)">Votar</button>
+      <div class="votos">Votos: <span class="contador">0</span> (<span class="porcentagem">0%</span>)</div>
+    </div>
+
+    <!-- Carta 2 -->
+    <div class="descricao-produto" data-id="2">
+      <h2 class="nome-produto">Chandra Nalaar</h2>
+      <img src="IMG_4697.jpeg" alt="Chandra Nalaar" />
+      <p class="descricao">Planinauta do fogo, com espírito rebelde e explosivo.</p>
+      <button onclick="votarProduto(this)">Votar</button>
+      <div class="votos">Votos: <span class="contador">0</span> (<span class="porcentagem">0%</span>)</div>
+    </div>
+
+    <!-- Carta 3 -->
+    <div class="descricao-produto" data-id="3">
+      <h2 class="nome-produto">Jace Beleren</h2>
+      <img src="IMG_4697.jpeg" alt="Jace Beleren" />
+      <p class="descricao">Mestre da ilusão e manipulação mental dos arquétipos azuis.</p>
+      <button onclick="votarProduto(this)">Votar</button>
+      <div class="votos">Votos: <span class="contador">0</span> (<span class="porcentagem">0%</span>)</div>
+    </div>
+
+    <!-- Carta 4 (em branco) -->
+    <div class="descricao-produto" data-id="4">
+      <h2 class="nome-produto">Carta Misteriosa 1</h2>
+      <img src="https://via.placeholder.com/300x200?text=Carta+Vazia" alt="Carta Vazia" />
+      <p class="descricao">Carta em branco. Personalize depois com seu Planinauta favorito.</p>
+      <button onclick="votarProduto(this)">Votar</button>
+      <div class="votos">Votos: <span class="contador">0</span> (<span class="porcentagem">0%</span>)</div>
+    </div>
+
+    <!-- Carta 5 (em branco) -->
+    <div class="descricao-produto" data-id="5">
+      <h2 class="nome-produto">Carta Misteriosa 2</h2>
+      <img src="https://via.placeholder.com/300x200?text=Carta+Vazia" alt="Carta Vazia" />
+      <p class="descricao">Você pode adicionar outra carta poderosa aqui futuramente.</p>
+      <button onclick="votarProduto(this)">Votar</button>
+      <div class="votos">Votos: <span class="contador">0</span> (<span class="porcentagem">0%</span>)</div>
+    </div>
+
+    <!-- Carta 6 (em branco) -->
+    <div class="descricao-produto" data-id="6">
+      <h2 class="nome-produto">Carta Misteriosa 3</h2>
+      <img src="https://via.placeholder.com/300x200?text=Carta+Vazia" alt="Carta Vazia" />
+      <p class="descricao">Espaço reservado para uma nova carta lendária.</p>
+      <button onclick="votarProduto(this)">Votar</button>
+      <div class="votos">Votos: <span class="contador">0</span> (<span class="porcentagem">0%</span>)</div>
+    </div>
+
+  </div>
+
+  <!-- Script para votação e ranking -->
+  <script>
+    function votarProduto(botao) {
+      const produto = botao.closest('.descricao-produto');
+      const nome = produto.querySelector('.nome-produto').textContent;
+      const contador = produto.querySelector('.contador');
+      let votos = parseInt(contador.textContent);
+
+      Swal.fire({
+        title: `Confirmar voto em "${nome}"?`,
+        icon: 'question',
+        showCancelButton: true,
+        confirmButtonText: 'Sim, votar',
+        cancelButtonText: 'Cancelar',
+        confirmButtonColor: '#ff7f50'
+      }).then((result) => {
+        if (result.isConfirmed) {
+          votos++;
+          contador.textContent = votos;
+          atualizarPorcentagens();
+          atualizarRanking();
+          Swal.fire('Voto computado!', '', 'success');
+        }
+      });
+    }
+
+    function atualizarPorcentagens() {
+      const produtos = document.querySelectorAll('.descricao-produto');
+      let total = 0;
+
+      produtos.forEach(p => {
+        total += parseInt(p.querySelector('.contador').textContent);
+      });
+
+      produtos.forEach(p => {
+        const votos = parseInt(p.querySelector('.contador').textContent);
+        const porcentagem = p.querySelector('.porcentagem');
+        porcentagem.textContent = total > 0 ? `${((votos / total) * 100).toFixed(1)}%` : '0%';
+      });
+    }
+
+    function atualizarRanking() {
+      const produtos = [...document.querySelectorAll('.descricao-produto')];
+      
+      // Limpa classes anteriores
+      produtos.forEach(p => p.classList.remove('primeiro', 'segundo', 'terceiro'));
+
+      // Ordena por votos
+      produtos.sort((a, b) => {
+        return parseInt(b.querySelector('.contador').textContent) - parseInt(a.querySelector('.contador').textContent);
+      });
+
+      if (produtos[0]) produtos[0].classList.add('primeiro');
+      if (produtos[1]) produtos[1].classList.add('segundo');
+      if (produtos[2]) produtos[2].classList.add('terceiro');
+    }
+  </script>
+
+</body>
+</html>
