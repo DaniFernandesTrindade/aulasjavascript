@@ -127,3 +127,20 @@
 
 </body>
 </html>
+body {
+  background-image: url('IMG_4697.jpeg');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  height: 100vh;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: inherit;
+  filter: blur
+
+
