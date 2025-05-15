@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Emerson Barbosa Fotografia</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- TOPO COM LOGO E MENU -->
+  <header>
+    <div class="container">
+      <div class="logo-area">
+        <img src="Logo fotógrafo.jpeg" alt="Logo Emerson Barbosa" class="logo-img" />
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato" class="btn-contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <h2>Fotografia com Alma</h2>
+      <p>Momentos capturados com sensibilidade e arte</p>
+    </div>
+  </section>
+
+  <!-- PORTFÓLIO -->
+  <section class="section fade-in" id="portfolio">
+    <h2>Portfólio</h2>
+    <div class="gallery">
+      <!-- Substitua com suas imagens -->
+      <img src="https://source.unsplash.com/600x400/?wedding" alt="Foto 1" />
+      <img src="https://source.unsplash.com/600x400/?portrait" alt="Foto 2" />
+      <img src="https://source.unsplash.com/600x400/?nature" alt="Foto 3" />
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="section fade-in" id="sobre">
+    <h2>Sobre Emerson</h2>
+    <p>Sou um fotógrafo apaixonado por eternizar emoções em imagens. Cada clique é uma história contada com luz.</p>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section fade-in" id="contato">
+    <h2>Contato</h2>
+    <p>Email: emerson@exemplo.com | WhatsApp: (00) 91234-5678</p>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer>
+    <p>&copy; 2025 Emerson Barbosa Fotografia</p>
+  </footer>
+
+  <!-- JAVASCRIPT -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const faders = document.querySelectorAll(".fade-in");
+
+      const appearOnScroll = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        });
+      }, {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px"
+      });
+
+      faders.forEach(fader => {
+        appearOnScroll.observe(fader);
+      });
+    });
+
+    // Mudar botão no scroll
+    const botaoContato = document.querySelector('.btn-contato');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        botaoContato.classList.add('scrolled');
+      } else {
+        botaoContato.classList.remove('scrolled');
+      }
+    });
+  </script>
+
+</body>
+</html>
