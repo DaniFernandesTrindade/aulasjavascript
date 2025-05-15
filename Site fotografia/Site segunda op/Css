@@ -1,0 +1,236 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #121212;
+  color: #eee;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+  background: rgba(0, 0, 0, 0.85);
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 80px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Menu */
+nav ul.menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul.menu li a {
+  color: #eee;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+nav ul.menu li a:hover {
+  background-color: #1db954;
+  color: #121212;
+}
+
+/* Botão Contato */
+.btn-contato {
+  background-color: #1db954;
+  color: #121212;
+  padding: 10px 22px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(29, 185, 84, 0.6);
+  border: none;
+}
+
+.btn-contato:hover {
+  background-color: #17a04f;
+  color: #fff;
+}
+
+.btn-contato.scrolled {
+  background-color: transparent;
+  color: #1db954;
+  border: 2px solid #1db954;
+  box-shadow: none;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  height: 90vh;
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #eee;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(18, 18, 18, 0.5);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  padding: 0 20px;
+}
+
+.hero h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.hero p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+/* Seções */
+.section {
+  padding: 70px 0;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  margin-bottom: 25px;
+  color: #1db954;
+  text-align: center;
+}
+
+.section p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Galeria */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(29, 185, 84, 0.7);
+}
+
+/* Fade-in */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Rodapé */
+footer {
+  background: #000;
+  color: #666;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  nav ul.menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero h2 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .btn-contato {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .gallery img {
+    height: 160px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  header {
+    text-align: center;
+  }
+}
